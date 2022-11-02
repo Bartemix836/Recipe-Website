@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <!-- Google Fonts -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style-rdyrecipe.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <div class = "section-up"><a class="navbar-brand" href="../index.html" id="logo"><div class = "logo"><img src="logo.png" 
+          alt=""></div><div class ="page-title">SIMPLE<span>RECIPES</span></div></a></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html" id="first-child">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Recipes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="rdyrecipes.html">Ready recipes</a></li>
+                <li><a class="dropdown-item" href="../Own-section/ownrecipes.html">Own recipes</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">About Page</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/Seasonal recipe/index.html">Seasonal recipes</a>
+            </li>
+          </ul>
+          
+        
+        </div>
+      </div>
+    </nav>
+    <div class="con-up">
+      <h2 class="main-title">Ready <span>Recipes</span></h2><br>
+      <p>Here you can search your farvorites meals and food. <br>
+         All you need to do is enter the dish of your choice in the search, which engine below.</p>
+      </div>
+    
+    <div class="container">
+      
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Search meal or recipe"
+          id="user-inp"
+        />
+        <button id="search-btn">Search Recipe</button>
+      </div>
+      <div id="result"></div>
+    </div>
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"></script>
+    <script src="rdyrecipes.js"></script>
+  </body>
+</html>

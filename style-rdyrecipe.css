@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background: #24bd288c;
+  }
+  nav{
+    margin-top: 1px;
+  }
+  .nav-item{
+    margin-top: -20px;
+  }
+  .container-fluid{
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    top: 0px;
+    background-color:#3a7459;
+    height: 3.5rem;
+  }
+   .navbar-collapse {
+    background-color: #3a7459;
+    margin-top: -1px;
+  }
+  .navbar-toggler{
+    margin-top: 1.5rem;
+  }
+  .section-up{
+    margin-top: -45px;
+    padding: 2.8rem 3rem 0rem ;
+    position: relative;
+    display: inline-block;
+    }
+      img{
+        border-radius: 1rem;
+      }
+        .logo{
+          margin-left: -57px;
+          margin-bottom: 29px;
+          width: 61px;
+          height: 33px;
+            }
+            .page-title{
+              display: block;
+              margin-top: -62px;
+              margin-left: -8px;
+            }
+        span{
+          color: #21873c;
+        }
+  
+          a{
+            text-decoration: none;
+            position: relative;
+            color: black;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px black;
+            justify-content: flex-start;
+            cursor: pointer;
+          }
+          a:hover{
+            text-decoration: none;
+            position: relative;
+            color: black;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px black;
+            cursor: pointer;
+          }
+          p{
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            display: flex;
+            
+          }
+          .main-title{
+            justify-content: center;
+            margin-top: 6rem;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 3rem;
+            color: black;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px black;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+          }
+          @media screen and (max-width: 420px){
+              .con-up{
+                margin-top: -1rem;
+              }
+          }
+          @media screen and (max-width: 991px){
+            .section-up{
+              margin-top: -4rem;
+            }
+            .navbar-collapse{
+              margin-top: -21px;
+              margin-left: -11px;
+              text-align: center;
+            }
+            .navbar-toggler{
+              /* text-align: center; */
+              margin-top: -21px;
+            }
+            i{
+              color: black;
+            }
+            .dropdown-item{
+              text-align: center;
+            }
+        }
+          
+    #first-child:hover{
+      text-decoration: underline;
+            text-shadow: 1px 1px 1px black;
+        }
+    .nav-item .nav-link:hover{
+      text-decoration: underline;
+            text-shadow: 1px 1px 1px black;
+        }
+        .dropdown-item:hover{
+          text-decoration: underline;
+          background-color: #3a7459;
+        }
+  .container {
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 3em 2.8em;
+    width: 90vw;
+    max-width: 32em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border: solid;
+    border-radius: 0.6em;
+  }
+  .dropdown-menu{
+    background-color:#3a7459;
+  }
+  .search-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.2em;
+    
+  }
+  .search-container input {
+    font-size: 1em;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    border: solid 1px black;
+    border-radius: 8px;
+    color:black;
+  }
+  .search-container button {
+    font-size: 1em;
+    background: #21873c;
+    border: none;
+    font-weight: 600;
+    border-radius: 0.3em;
+    cursor: pointer;
+    border: solid 1px black;
+  }
+  img {
+    display: block;
+    width: 50%;
+    margin: 1.8em auto 0 auto;
+  }
+  .details {
+    background-color: #21873c;
+    position: relative;
+    margin: -4.3em 0 0 0;
+    text-align: center;
+    padding: 0.6em 0;
+    border: solid 1px black ;
+    color: black;
+    border-radius: 9px;
+  }
+  .details h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .details h4 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  
+  #show-recipe {
+    font-size: 1em;
+    position: relative;
+    left: 75%;
+    padding: 0.9em 0.6em;
+    background-color: #21873c;
+    border: none;
+    top: 1.5em;
+    border-radius: 0.3em;
+    font-weight: 600;
+    cursor: pointer;
+    border: solid 1px black;
+  }
+  #recipe {
+    position: absolute;
+    background-color: #ffffff;
+    min-height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 0.6em;
+    display: none;
+  }
+  #recipe pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 2.5em 1.2em 1.2em 1.2em;
+    font-size: 0.92em;
+    color: #303040;
+  }
+  .more{
+    margin-left: 22rem;
+    margin-bottom: 8px;
+    padding: .5em .6em .5rem .5em;
+    font-size: .8rem;
+    font-weight: 250;
+    background-color: #21873c;
+    border-radius: 5px;
+  }
+  .more a{
+    text-decoration: none;
+    color:black ;
+  }
+   
+  #hide-recipe {
+    font-size: 1em;
+    position: relative;
+    width: 1.8em;
+    height: 1.8em;
+    background-color: #21873c;
+    border: none;
+    top: 1.2em;
+    left: 90%;
+    border-radius: 0.3em;
+    cursor: pointer;
+    border: solid 1px black;
+  }
+  ul {
+    font-size: 1em;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em 1.8em;
+    padding: 1.2em 0 0 1.2em;
+    color: #000000;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  li{
+    color: black;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 1.8em;
+    color: #202030;
+  }
+  
+  button a{
+    cursor: pointer;
+
+  }
+  @media screen and (max-width: 500px) {
+    .container {
+      font-size: 14px;
+    }
+    #show-recipe{
+        left: 69%;
+    }
+  }
