@@ -1,3 +1,4 @@
+let conRes = document.querySelector(".container");
 let res = document.getElementById("result");
 let searchBtn = document.getElementById("search-btn");
 let url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
@@ -5,13 +6,17 @@ let url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
 
 searchBtn.addEventListener("click",()=>{
+    
     let userInp = document.getElementById("user-inp").value;
+    
     if(userInp.length == 0) 
-    { 
-        res.innerHTML = `<h3>Input is empty. Please enter serach term</h3>`;
+    {   
+       res.innerHTML += `<h3>Input is empty. Please enter serach term</h3>`;
     }
     else
-    {
+    {   
+        res.style.display = "block";
+
         fetch(url + userInp)
         .then((response)=> response.json())
         .then((data)=>{
@@ -35,8 +40,10 @@ searchBtn.addEventListener("click",()=>{
                 };
             }
             console.log(ingredients);
-
-            res.innerHTML = `<img src= ${myMeal.strMealThumb}>
+            
+            res.innerHTML = `
+                <button class="btn-close">X</button>
+                <img src= ${myMeal.strMealThumb}>
                 <div class ="details">
                     <h2>${myMeal.strMeal}</h2>
                     <h4>${myMeal.strArea}</h4>
@@ -48,7 +55,11 @@ searchBtn.addEventListener("click",()=>{
                     <button class="more"><a href = ${myMeal.strSource}>More about recipe</a></button>    
                 </div>
                 <button id="show-recipe">Show detais</div>
-            `;  
+            `;
+            let btnClose = document.querySelector(".btn-close");
+            btnClose.addEventListener("click",()=>{  
+                res.style.display = "none";
+            })
             let recipeContent = document.getElementById("ingredient-con");
             let parent = document.createElement("ul");
             let recipe = document.getElementById("recipe");
@@ -68,10 +79,14 @@ searchBtn.addEventListener("click",()=>{
             showDeatails.addEventListener("click",()=>{
                 recipe.style.display = "block";
             });
+            
         }).catch(()=>{
             res.innerHTML = `<h3>Wrong term</h3>`;
         })
+        
     }
+
+    
 });
 
 

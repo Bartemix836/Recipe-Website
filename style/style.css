@@ -1,0 +1,343 @@
+@media screen and (max-width: 420px) {
+  .con-up {
+    margin-top: -1rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-up {
+    margin-top: -2rem !important;
+  }
+  .navbar-collapse {
+    margin-top: -21px !important;
+    margin-left: -11px !important;
+    text-align: center !important;
+    width: 100%;
+  }
+  .navbar-toggler {
+    /* text-align: center; */
+    margin-top: -6px !important;
+  }
+  i {
+    color: black !important;
+  }
+  .dropdown-item {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .container {
+    font-size: 14px;
+  }
+  .container .details h2 {
+    font-size: 15px !important;
+  }
+  .container .details h4 {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    top: 55% !important;
+  }
+  .container .btn-close {
+    top: -8rem !important;
+  }
+  .container .search-container {
+    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .container .search-container input {
+    display: flex;
+    position: relative;
+    width: 100% !important;
+    margin-right: 1px !important;
+  }
+  .container .search-container #search-btn {
+    margin-right: 1px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  #show-recipe {
+    display: flex;
+    left: 0% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+nav {
+  margin-top: 1px;
+}
+nav .container-fluid {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  top: 0px;
+  background-color: #3a7459;
+  height: 3.5rem;
+}
+nav .container-fluid .navbar-collapse {
+  background-color: #3a7459;
+  margin-top: -1px;
+}
+nav .container-fluid .navbar-collapse .nav-item {
+  margin-top: -6px;
+}
+nav .container-fluid .navbar-collapse .nav-item .nav-link {
+  color: black;
+  font-weight: bold;
+}
+nav .container-fluid .navbar-collapse .nav-item #first-child:hover {
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px black;
+}
+nav .container-fluid .navbar-collapse .nav-item .dropdown-menu {
+  background-color: #3a7459;
+}
+nav .container-fluid .navbar-collapse .nav-item .dropdown-menu a {
+  color: black;
+  font-weight: bold;
+}
+nav .container-fluid .navbar-collapse .nav-item .dropdown-menu a:hover {
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px black;
+}
+nav .container-fluid .navbar-collapse .nav-item .nav-link:hover {
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px black;
+}
+nav .container-fluid .navbar-collapse .dropdown-item:hover {
+  text-decoration: underline;
+  background-color: #3a7459;
+}
+nav .container-fluid .navbar-toggler {
+  margin-top: 1.5rem;
+}
+nav .container-fluid .section-up {
+  margin-top: -21px;
+  padding: 2.8rem 3rem 0rem;
+  position: relative;
+  display: inline-block;
+}
+nav .container-fluid .section-up a {
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+nav .container-fluid .section-up a .logo {
+  margin-left: -42px;
+  margin-bottom: 31px;
+}
+nav .container-fluid .section-up a .logo img {
+  border-radius: 52px;
+  width: 30px;
+  height: 30px;
+}
+nav .container-fluid .section-up a .page-title {
+  display: block;
+  margin-top: -62px;
+  margin-left: -8px;
+}
+nav .container-fluid .section-up a span {
+  color: #263e2d;
+}
+nav .container-fluid .section-up a:hover {
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgba(36, 189, 40, 0.5490196078);
+}
+
+.main-title {
+  justify-content: center;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  text-shadow: black;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+}
+
+.container {
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 3em 2.8em;
+  width: 90vw;
+  max-width: 32em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border: solid;
+  border-radius: 0.6em;
+}
+.container .search-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.2em;
+}
+.container .search-container input {
+  font-size: 1em;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  border: solid 1px black;
+  border-radius: 8px;
+  color: black;
+}
+.container .search-container button {
+  font-size: 1em;
+  background: #21873c;
+  border: none;
+  font-weight: 600;
+  border-radius: 0.3em;
+  cursor: pointer;
+  border: solid 1px black;
+}
+.container .btn-close {
+  font-size: 1em;
+  position: relative;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #21873c;
+  border: none;
+  top: -6rem;
+  left: 100%;
+  border-radius: 0.3em;
+  cursor: pointer;
+  border: solid 1px black;
+}
+.container img {
+  display: block;
+  width: 50%;
+  margin: 1.8em auto 0 auto;
+}
+.container .details {
+  background-color: #21873c;
+  position: relative;
+  margin: -4.3em 0 0 0;
+  text-align: center;
+  padding: 0.6em 0;
+  border: solid 1px black;
+  color: black;
+  border-radius: 9px;
+}
+.container .details h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.container .details h4 {
+  font-size: 1em;
+  font-weight: 400;
+}
+.container #recipe {
+  position: absolute;
+  background-color: #ffffff;
+  min-height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 0.6em;
+  display: none;
+}
+.container #recipe pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 2.5em 1.2em 1.2em 1.2em;
+  font-size: 0.92em;
+  color: #303040;
+}
+.container #recipe .more {
+  margin-left: 22rem;
+  margin-bottom: 8px;
+  padding: 0.5em 0.6em 0.5rem 0.5em;
+  font-size: 0.8rem;
+  font-weight: 250;
+  background-color: #21873c;
+  border-radius: 5px;
+}
+.container #recipe .more a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.container #recipe .more button a {
+  cursor: pointer;
+}
+.container #recipe #hide-recipe {
+  font-size: 1em;
+  position: relative;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #21873c;
+  border: none;
+  top: 1.2em;
+  left: 90%;
+  border-radius: 0.3em;
+  cursor: pointer;
+  border: solid 1px black;
+}
+.container #show-recipe {
+  font-size: 1em;
+  position: relative;
+  left: 75%;
+  padding: 0.9em 0.6em;
+  background-color: #21873c;
+  border: none;
+  top: 1.5em;
+  border-radius: 0.3em;
+  font-weight: 600;
+  cursor: pointer;
+  border: solid 1px black;
+}
+.container ul {
+  font-size: 1em;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em 1.8em;
+  padding: 1.2em 0 0 1.2em;
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.container ul li {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
