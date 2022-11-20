@@ -1,0 +1,103 @@
+@import "./variables";
+@media screen and (max-width: 991px){
+    i{
+      color: $text-color;
+    }
+    .navbar-collapse{
+      margin-top: -21px;
+      margin-left: -11px;
+      text-align: center;
+    }
+    .dropdown-menu{
+      border: none;
+      color: $text-color;
+      font-weight: 400;
+      text-align: center;
+    }
+    .section{
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        .row-cards{
+        display: flex;
+        flex-direction: column!important;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        justify-content: center;
+        }
+    }
+    footer{
+        background-color: $dark-green;
+        padding: 2rem;
+        font-weight: normal;
+        align-content: center!important;
+        justify-content: center!important;
+        .footer-top{
+                position: relative!important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+                display: flex!important; 
+                .container{
+                    .row{
+                        position: relative!important;
+                        margin-left: auto!important;
+                        margin-right: auto!important;
+                        display: flex!important; 
+                        h4{
+                            color: #000000;
+                            font-weight: 400;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: flex;
+                            flex-direction: column;
+                            white-space: nowrap;
+                        }
+                        .menu-footer{
+                            display: flex;
+                            flex-direction: column!important;
+                            gap: 0!important;
+                            li{ 
+                                color: $text-color;
+                                display: flex;
+                                flex-direction: column!important;
+                                align-content: center!important;
+                                justify-content: center!important;
+                                text-decoration: none;
+                                a{
+                                    display: flex;
+                                    flex-direction: column!important;
+                                    color: $text-color;
+                                    text-decoration: none;
+                                }
+                                a:hover{
+                                    color: $text-color;
+                                    font-weight:$font-bold;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                        p{
+                            color: $text-color;
+                        }
+                        i{
+                            color: $text-color;
+                        }
+                    }
+                    .footer-links{
+                        display: flex;
+                        flex-direction: column;
+                        margin: auto;
+                        justify-content: center;
+                        text-align: -webkit-center;
+                    }
+                }
+                
+        }
+            
+            
+        } 
+    
+  }

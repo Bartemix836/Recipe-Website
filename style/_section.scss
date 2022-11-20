@@ -1,0 +1,58 @@
+.section{
+    padding-top: 15px;
+    padding-bottom: 7px;
+    .title-section{
+        justify-content: center;
+        position: relative;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        padding: 11px;
+        font-family: "Playfair Display",Georgia;
+        font-weight: 400;
+        font-size: 3rem;
+        font-style: italic;
+        color: $text-color;
+        line-height: 1;
+    }
+    .row-cards{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 27px;
+        .card{
+            border: solid 1px black;
+            padding: 1px;
+            justify-content: center;
+            text-align: center;
+            height: 27rem;
+            img{
+                border-radius: 13rem;
+                transition: transform  0.3s;
+                padding: 8px;
+            }
+            img:hover { 
+                transform: scale(1.1);
+                border: solid 2px black;
+                border-radius: 15rem;
+            }
+            p{
+                color: $text-color;
+            }
+            .btn-primary{
+                background-color: $light-green;
+                border: solid 1px black;
+            }
+            .btn-primary:hover{
+                background-color: $light-green;
+                border: none;
+            }
+        }
+    }
+    
+}
