@@ -1,0 +1,55 @@
+@import "./_home-section";
+@import "./_about-section.scss";
+@import "./_footer";
+@import "./_variables";
+@import "./_mediaquery";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(237deg, rgba(68,67,48,0.8631827731092436) 0%, rgba(226,240,129,1) 20%, rgba(70,201,62,0.896796218487395) 100%);
+    width: 100%;
+    margin: 0 0;
+    overflow-x:hidden;
+    margin-right: 0;
+}
+          
+#btn{
+    margin-left: 42px;
+    button{
+        width: 150px;
+        height: 32px;
+        letter-spacing: 3px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        transition: 0.5s ease;
+        cursor: $cursor;
+    }
+    span{
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: $font-bold;
+    }
+}   
+/* arrow */
+.arrow{
+    position: fixed;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 50px;
+    i{
+        color: $text-color;
+        font-size: 30px;
+    }
+    i:hover{
+        color: white;
+    }
+}
+    

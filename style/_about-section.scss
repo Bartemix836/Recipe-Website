@@ -1,0 +1,41 @@
+@import "./_variables";
+@import "./_mediaquery";
+.about{
+    #about{
+        margin-top: 100px;
+        h1{
+            text-align: center;
+            font-weight: $font-bold;
+            font-family: 'Dancing Script', cursive;
+            border-bottom: 2px solid $light-green;
+            text-shadow: $text-shadow;
+        }
+        h2{
+            font-weight:$font-bold;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5rem;
+            border-bottom: 2px solid $light-green;
+            text-shadow: $text-shadow;
+        }
+        p{
+            font-family: 'Roboto Slab', serif;
+            font-size: 1.3rem;
+        }
+        #readmorebtn{
+            button{
+            width: 200px;
+            height: 32px;
+            background: transparent;
+            background-color: #6dbd82;
+            border: 2px solid $light-green;
+            color: white;
+            font-weight: $font-bold;
+            letter-spacing: 3px;
+            transition: 0.5s ease;}
+            button:hover{
+                background-color: $light-green;
+                color: white;
+            }
+        }
+    }
+}
