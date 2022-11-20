@@ -1,0 +1,80 @@
+@import "./variables";
+
+nav{
+    font-weight: $font-bold;
+    
+    .container-fluid{
+      position: fixed;
+      z-index: 2;
+      right: 0;
+      top: 0px;
+      background-color:$dark-green;
+      height: 3.5rem;
+      margin-left: 1rem;
+      span{
+        color:#263e2d;
+      }
+      .collapse{
+          margin-left: auto;
+          margin-right: auto;
+          .nav-item{
+              margin-left: 2rem;
+          } 
+          a{
+              text-decoration: none;
+              text-align: center;
+              position: relative;
+              color: $text-color;
+              justify-content: flex-start;
+              cursor: $cursor;
+              font-weight: $font-bold;
+          }
+          a:hover{
+              text-decoration: none;
+              position: relative;
+              color:$text-color;
+              font-weight:$font-bold;
+              text-shadow: $text-shadow;
+              cursor: $cursor;
+          }
+          .dropdown-menu{
+          background-color:$dark-green;
+          border: none;
+          padding: 0px;
+          width: 100%;
+          margin-left: -2px;
+            a{
+              color:$text-color;
+              font-weight: $font-bold;  
+            }
+            a:hover{
+              text-decoration: underline;
+              color: $text-color;
+              font-weight: $font-bold;
+            }
+        
+              }
+          #first-child:hover{
+                text-decoration: underline;
+                text-shadow: $text-shadow
+              }
+          .nav-item .nav-link:hover{
+                text-decoration: underline;
+                text-shadow: $text-shadow;
+              }
+          .dropdown-item:hover{
+                text-decoration: underline;
+                background-color: $dark-green; 
+                font-weight: 400;
+                color: $text-color;
+              }
+          }
+      }
+      
+      i{
+          color: $text-color;
+      }
+      img{
+          border-radius: 1rem;
+      }      
+  }

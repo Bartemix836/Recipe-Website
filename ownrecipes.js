@@ -23,6 +23,7 @@ addBox.addEventListener("click", () => {
 closeIcon.addEventListener("click", () => {
     isUpdate = false;
     titleTag.value = descTag.value = "";
+    titleTag.value = descIgr.value = "";
     popupBox.classList.remove("show");
     document.querySelector("body").style.overflow = "auto";
 });

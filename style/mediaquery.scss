@@ -1,0 +1,29 @@
+@import "./variables";
+
+@media (max-width: 660px){
+    .wrapper{
+      margin: 15px!important;
+      gap: 15px!important;
+      grid-template-columns: repeat(auto-fill, 100%)!important;
+    }
+    .popup-box .popup{
+      max-width: calc(100% - 15px)!important;
+    }
+    .bottom-content .settings i{
+      font-size: 17px!important;
+    }
+  }
+  @media screen and (max-width: 991px){
+    .navbar-collapse{
+      margin-top: 15px!important;
+      text-align: center!important;
+      background-color: $dark-green!important;
+    }
+    .navbar-toggler{
+      /* text-align: center; */
+      margin-top: -4px!important;
+    }
+    i{
+      color: $text-color!important;
+    }
+  }
