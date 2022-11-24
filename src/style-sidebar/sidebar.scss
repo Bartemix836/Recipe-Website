@@ -1,0 +1,43 @@
+$sidebar-color:#476845;
+$color-channels:red;
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex:0.25;
+    height: 120vh;
+    background-color:$sidebar-color;
+    .siedebar_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: green ;
+        color: white;
+        border-bottom: 2.5px solid grey;
+    }
+}
+.channels{
+    flex: 1;
+    background-color: $color-channels;
+    .channels-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: grey;
+        color: aqua;
+        .channel-title{
+         display: flex;
+         align-items: center;
+        }
+        .RightSide_addChannel{
+        cursor: pointer;
+        }
+        .RightSide_addChannel:hover{
+            color: white; 
+        }
+    }
+    
+}
+
+
