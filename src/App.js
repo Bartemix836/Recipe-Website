@@ -1,6 +1,6 @@
 import React from 'react';
 import './style-app/App.css';
-
+import Chat from './app/Chat';
 import Sidebar from "./Sidebar";
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
         {/*Left side - sidebar*/}
         <Sidebar/>
 
-        {/*Right side - Posts and Chat*/}
-        
+        {/*Chat*/}
+          <Chat/>
     </div>
   );
 }

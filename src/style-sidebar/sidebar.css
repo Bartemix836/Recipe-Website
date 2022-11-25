@@ -36,4 +36,53 @@
 }
 .channels .channels-title .RightSide_addChannel:hover {
   color: white;
+}
+
+.voice-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  background-color: #476845;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+.voice-section .voice-info {
+  flex: 1;
+  padding: 10px;
+}
+.voice-section .voice-info h3 {
+  color: orange;
+}
+.voice-section .voice-info p {
+  font-size: smaller;
+}
+.voice-section .voiceIcons {
+  color: gold;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.voice-section .voiceIcons .MuiSvgIcons-root {
+  padding: 10px;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  background-color: #476845;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+.user-profile .profile-info {
+  flex: 1;
+  padding: 10px;
+}
+.user-profile .profile-info h3 {
+  color: white;
+}
+.user-profile .profileIcons .MuiSvgIcons-root {
+  padding: 10px;
 }/*# sourceMappingURL=sidebar.css.map */

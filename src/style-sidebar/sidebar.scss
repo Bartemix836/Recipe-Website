@@ -39,5 +39,55 @@ $color-channels:red;
     }
     
 }
+.voice-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    background-color: #476845;
+    padding: 10px;
+    border-top: 1px solid black;
+    .voice-info{
+        flex: 1;
+        padding: 10px;
+        h3{
+            color: orange;
+        }
+        p{
+            font-size: smaller;
+        }
+    }
+    .voiceIcons{
+        color: gold;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .MuiSvgIcons-root{
+           padding: 10px;     
+        }
+    }
+}
+.user-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    background-color: #476845;
+    padding: 10px;
+    border-top: 1px solid black;
+    
+    .profile-info{
+         flex: 1;
+         padding: 10px;
+         h3{
+            color: white;
+         }
+    }
+    .profileIcons{
+        .MuiSvgIcons-root{
+            padding: 10px;
+        }
+    }
+}
 
 
