@@ -3,8 +3,8 @@ popupBox = document.querySelector(".popup-box"),
 popupTitle = document.querySelector("header p"),
 closeIcon = document.querySelector("header i"),
 titleTag = document.querySelector("input"),
-descIgr = document.querySelector(".ingr"),
 descTag = document.querySelector(".desc"),
+descIgr = document.querySelector(".ingr"),
 addBtn = popupBox.querySelector("button");
 
 const months = ["January", "February", "March", "April", "May", "June", "July",
