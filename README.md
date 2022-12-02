@@ -1,46 +1,9 @@
-# Getting Started with Create React App and Redux
+RECIPE PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+The project was mainly created in JavaScript and some elements in React.js in combination with Redux. The application is designed for users and culinary enthusiasts. It aims to reduce the user's stress and time spent thinking about what to eat for lunch or dinner. The site contains ready-made recipes of various dishes, which can be searched in the "Ready Recipe" section, which uses API technology. While another section "Own Recipes" was made in pure JavaScript. The chat for the project was made using the React.js framework with Redux for the application you need to log in with a google account. As for the styling of the application, all visual effects were made using the SCSS preprocessor, which was divided into appropriate modules.
 
-In the project directory, you can run:
+Problems and challenges encountered:
 
-### `npm start`
+The biggest difficulty and the most time was taken up with the creation of the chat, as this was the first use of React.js technology by ze me. This type of part of the project was a good introduction and exercise in using the React.js framework. This is not a fully completed application, but it already allows text messaging. Over time, voice chat, searching for messages on a given channel and many other functionalities will be added.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
