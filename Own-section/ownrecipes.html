@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title> Your Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+         crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous" defer></script>
+    <script src="ownrecipes.js" defer></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html" id="logo"><img src="logo.png" alt="" width="30px">SIMPLE<span>RECIPES</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html" id="first-child">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Recipes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../Ready-section/rdyrecipes.html">Ready recipes</a></li>
+                  <li><a class="dropdown-item" href="ownrecipes.html">Own recipes</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">About Page</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="../Seasonal recipe/index.html">Seasonal recipes</a>
+              </li>
+            </ul>
+            
+          
+          </div>
+        </div>
+      </nav>
+    <div class="cont">
+        
+        <div class="section-up"><h2 class="page-title">Your <span>Recipes</span></h2></div>
+
+        <div class="popup-box">
+          <div class="popup">
+            <div class="content">
+              <header>
+                  <p></p>
+                  <i class="uil uil-times"></i>
+              </header>
+              <form action="#">
+                  <div class="row title">
+                  <label>Title</label>
+                  <input type="text" spellcheck="false">
+                  </div>
+                  <div class="row ingredients">
+                      <label>Ingredients</label>
+                      <textarea class="ingr" spellcheck="false"></textarea>
+                  </div>
+                  <div class="row description">
+                  <label>Description</label>
+                  <textarea class="desc" spellcheck="false"></textarea>
+                  </div>
+                  <button>Add Recipe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <li class="add-box">
+              <div class="icon"><img src="addrecipe.png" class="icon"></div>
+              <p>Add new Recipe</p>
+          </li>
+        </div>
+        
+    </div>
+   
+    
+  </body>
+</html>
