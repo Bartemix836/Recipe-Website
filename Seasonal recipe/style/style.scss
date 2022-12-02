@@ -1,0 +1,51 @@
+@import "./mediaquery";
+@import "./variables";
+@import "./nav-menu";
+@import "./section";
+
+
+body{
+    background: #24bd288c;
+   
+    footer{
+        background-color: $dark-green;
+        padding: 2rem;
+        font-weight: normal;
+            h4{
+                color:$text-color;
+                font-weight: 400;
+            }
+            .menu-footer{
+                display: flex;
+                flex-direction: row;
+                gap: 5rem;
+                li{ 
+                    color: $text-color;
+                    display: flex;
+                    flex-direction: row;
+                    text-decoration: none;
+                    a{
+                        display: flex;
+                        flex-direction: row;
+                        white-space: nowrap;
+                        color: $text-color;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        color: $text-color;
+                        font-weight: $font-bold;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            p{
+                color: $text-color;
+            }
+            i{
+                color: $text-color;
+            }
+        } 
+  }
+ 
+ 
+  
