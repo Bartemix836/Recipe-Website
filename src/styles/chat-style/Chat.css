@@ -41,7 +41,7 @@
   background-color: white;
   width: 80%;
   outline-width: 0;
-  color: red;
+  color: black;
   font-size: large;
   border: solid 1px black;
   border-radius: 1rem;
@@ -56,18 +56,28 @@
   color: black;
 }
 .chat .chat-input form .chat-btn {
-  margin-right: 4rem;
-  display: flex;
-  padding: 14px;
-  text-align: center;
-  justify-content: center;
-  border-radius: 1rem;
-  height: 3rem;
-  width: 5rem;
-  background-color: grey;
-  border: solid 1px black;
-  color: black;
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
   font-weight: bold;
+  color: black;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+.chat .chat-input form .chat-btn:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+.chat .chat-input form .chat-btn:active {
+  position: relative;
+  top: 1px;
 }
 @media screen and (max-width: 1276px) {
   .chat .chat-input form .chat-btn {

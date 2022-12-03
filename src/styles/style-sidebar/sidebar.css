@@ -61,27 +61,6 @@
   background-color: grey;
 }
 
-.voice-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: grey;
-  background-color: #476845;
-  padding: 10px;
-  border-top: 1px solid black;
-}
-.voice-section .voice-info {
-  flex: 1;
-  padding: 10px;
-}
-.voice-section .voice-info h3 {
-  color: orange;
-}
-.voice-section .voice-info p {
-  font-size: smaller;
-}
-
 .user-profile {
   display: flex;
   justify-content: space-between;
@@ -119,6 +98,9 @@
   margin-top: 5px;
   color: white;
   padding-left: 12px;
+}
+.user-profile .profile-info .logout:hover {
+  cursor: pointer;
 }
 .user-profile .profileIcons .MuiSvgIcons-root {
   padding: 11px;

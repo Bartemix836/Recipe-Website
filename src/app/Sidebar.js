@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import ChannelListElement from "./ChannelListElement";
 import'../styles/style-sidebar/channellist.css';
 import'../styles/style-sidebar/sidebar.css';
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddIcon from '@mui/icons-material/Add';
 import Avatar from '@mui/material/Avatar';
 import { useSelector } from "react-redux";
@@ -39,14 +38,12 @@ function Sidebar(){
             
             <div className="siedebar_top">
             <img className="logo" src={logo} alt=""/><h2>Recipes<span>AppChat</span></h2>
-                {/* <h3>RecipeBlogs</h3>
-                <ExpandMoreIcon/> */}
             </div>
             <div className="channels1">
                     <div className="channels-title">
                         <div className="channel-title">
-                            {/* <ExpandMoreIcon/> */}
-                            <h4>Our Channels</h4>
+
+                            <h3>Our Channels</h3>
                         </div>
                         <AddIcon onClick= {handleAddChannel} className="RightSide_addChannel"/>
                     </div> 
@@ -74,11 +71,6 @@ function Sidebar(){
                         onClick ={()=>auth.signOut()}
                     />
                 </div>
-                {/* <div className="profileIcons">
-                    <MicIcon/>
-                    <HeadsetIcon/> 
-                    <SettingsIcon/>
-                </div> */}
             </div>
         </div>
     );

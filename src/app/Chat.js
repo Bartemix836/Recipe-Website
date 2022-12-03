@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react';
 import '../styles/chat-style/Chat.css';
 import ChatHeader from './ChatHeader';
 import AddCircleRoundedIcon from '@mui/icons-material/AddCircleRounded';
-// import CardGiftcardRoundedIcon from '@mui/icons-material/CardGiftcardRounded';
-// import GifIcon from '@mui/icons-material/Gif';
-// import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 import Message from './Message';
 import { useSelector } from 'react-redux';
 import { selectChannelId, selectChannelName } from '../features/appSlice';
@@ -76,13 +73,6 @@ export default function Chat() {
                 Send
                 </button>    
             </form>
-
-            {/* <div className="chat-inputIcons">
-                <CardGiftcardRoundedIcon/>
-                <GifIcon fontSize='medium'/>
-                <InsertEmoticonIcon fontSize='medium'/>
-            </div> */}
-
         </div>
     </div>
   )

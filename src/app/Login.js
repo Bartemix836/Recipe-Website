@@ -15,7 +15,6 @@ function Login() {
 
   return (   
             <div className='login'>
-                <a href=""></a>
                  <h2>Our Community</h2>
                  <h3>SIMPLES <span>RECIPE</span></h3>
                 <div className="login-log">

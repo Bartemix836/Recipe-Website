@@ -62,28 +62,6 @@
     }
     
 }
-.voice-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    color: grey;
-    background-color: #476845;
-    padding: 10px;
-    border-top: 1px solid black;
-    .voice-info{
-        flex: 1;
-        padding: 10px;
-        h3{
-            color: orange;
-        }
-        p{
-            font-size: smaller;
-        }
-        
-    }
-   
-}
 .user-profile{
     display: flex;
     justify-content: space-between;
@@ -120,6 +98,9 @@
             margin-top: 5px;
             color: white;
             padding-left: 12px;
+        }
+        .logout:hover{
+           cursor: pointer;
         }
     }
     .profileIcons{
