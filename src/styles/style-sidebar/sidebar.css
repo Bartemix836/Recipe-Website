@@ -1,0 +1,107 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 120vh;
+  background-color: #476845;
+  border-radius: 1rem;
+}
+.sidebar .siedebar_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #21873c;
+  color: white;
+  border-bottom: 2.5px solid rgb(0, 0, 0);
+  border-right: solid 1px black;
+  border-bottom-right-radius: 1rem;
+}
+.sidebar .siedebar_top .logo {
+  border-radius: 1rem;
+  height: 25px;
+  width: 25px;
+}
+.sidebar .siedebar_top h2 {
+  margin-left: 1px;
+}
+.sidebar .siedebar_top h2 span {
+  color: black;
+}
+
+.channels1 {
+  flex: 1;
+  background-color: #225a22;
+  border: solid 1px black;
+}
+.channels1 .channels-title {
+  display: flex;
+  margin-top: -3px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: solid 1px black;
+  border-bottom-right-radius: 1rem;
+  background-color: #21873c;
+  color: black;
+}
+.channels1 .channels-title .channel-title {
+  display: flex;
+  align-items: center;
+}
+.channels1 .channels-title .RightSide_addChannel {
+  cursor: pointer;
+  color: white;
+  border: solid 1px black;
+  border-radius: 1rem;
+  background-color: rgb(24, 19, 19);
+}
+.channels1 .channels-title .RightSide_addChannel:hover {
+  color: black;
+  background-color: grey;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  background-color: #476845;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+.user-profile .profile-info {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 10px;
+  justify-content: space-between;
+}
+.user-profile .profile-info h3 {
+  color: white;
+  margin-top: 7px;
+}
+.user-profile .profile-info p {
+  margin-top: 7px;
+  color: white;
+}
+@media screen and (max-width: 1200px) {
+  .user-profile .profile-info p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.user-profile .profile-info .img-avatar {
+  bottom: 1px;
+}
+.user-profile .profile-info .logout {
+  margin-top: 5px;
+  color: white;
+  padding-left: 12px;
+}
+.user-profile .profile-info .logout:hover {
+  cursor: pointer;
+}
+.user-profile .profileIcons .MuiSvgIcons-root {
+  padding: 11px;
+}/*# sourceMappingURL=sidebar.css.map */
