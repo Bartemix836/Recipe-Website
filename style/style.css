@@ -475,6 +475,11 @@
   text-align: justify;
   padding: 1px 24px 1px 39px;
 }
+.home-section .home .content a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+}
 .home-section .home .main-img {
   flex: 1 1 300px;
 }
