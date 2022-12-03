@@ -1,9 +1,15 @@
-RECIPE PROJECT
+HOW TO RUN AppChat
 
+1.Install npm in the folder where the src and public directories are located.
 
-The project was mainly created in JavaScript and some elements in React.js in combination with Redux. The application is designed for users and culinary enthusiasts. It aims to reduce the user's stress and time spent thinking about what to eat for lunch or dinner. The site contains ready-made recipes of various dishes, which can be searched in the "Ready Recipe" section, which uses API technology. While another section "Own Recipes" was made in pure JavaScript. The chat for the project was made using the React.js framework with Redux for the application you need to log in with a google account. As for the styling of the application, all visual effects were made using the SCSS preprocessor, which was divided into appropriate modules.
+2.Use npm start command in termianl. 
 
-Problems and challenges encountered:
+3.In the index.html file located in the "main" gallery, check that the port on which the chat was launched is the same as in the address for the "a" tag located in the p tag with the class named "p-family". If it is different, change it to the correct port number, which can be found in the screenshot link below.
 
-The biggest difficulty and the most time was taken up with the creation of the chat, as this was the first use of React.js technology by ze me. This type of part of the project was a good introduction and exercise in using the React.js framework. This is not a fully completed application, but it already allows text messaging. Over time, voice chat, searching for messages on a given channel and many other functionalities will be added.
+![image](https://user-images.githubusercontent.com/114190309/205456097-5995fb6d-ee68-41eb-bf24-19c695d4cda7.png)
+
+![image](https://user-images.githubusercontent.com/114190309/205456023-f0a8313e-6dba-47e4-b6c0-c65359069f3e.png)
+
+![image](https://user-images.githubusercontent.com/114190309/205456076-5cdea035-866c-43c5-80b3-db26ea3eedf1.png)
+
 
