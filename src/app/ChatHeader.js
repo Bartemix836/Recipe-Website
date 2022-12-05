@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/chatheader-style/chatheader.css';
+import '../Assets/chatheader-style/chatheader.css';
 import HelpRoundedIcon from '@mui/icons-material/HelpRounded';
 import BookIcon from '@mui/icons-material/Book';
 

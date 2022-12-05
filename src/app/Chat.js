@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/chat-style/Chat.css';
+import '../Assets/chat-style/Chat.css';
 import ChatHeader from './ChatHeader';
 import AddCircleRoundedIcon from '@mui/icons-material/AddCircleRounded';
-import Message from './Message';
+import Message from '../Components/Message';
 import { useSelector } from 'react-redux';
 import { selectChannelId, selectChannelName } from '../features/appSlice';
 import { selectUser } from '../features/userSlice';

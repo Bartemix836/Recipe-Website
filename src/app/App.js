@@ -1,10 +1,10 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import '../styles/style-app/App.css';
+import '../Assets/style-app/App.css';
 import Chat from './Chat';
 import Sidebar from "./Sidebar";
 import {selectUser} from '../features/userSlice';
-import Login from './Login';
+import Login from '../Components/Login';
 import { useEffect } from "react";
 import {auth} from '../firebase';
 import { login, logout} from "../features/userSlice";

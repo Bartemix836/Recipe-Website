@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import ChannelListElement from "./ChannelListElement";
-import'../styles/style-sidebar/channellist.css';
-import'../styles/style-sidebar/sidebar.css';
+import ChannelListElement from "../Components/ChannelListElement";
+import'../Assets/style-sidebar/channellist.css';
+import'../Assets/style-sidebar/sidebar.css';
 import AddIcon from '@mui/icons-material/Add';
 import Avatar from '@mui/material/Avatar';
 import { useSelector } from "react-redux";
 import { selectUser } from "../features/userSlice";
 import db, { auth } from "../firebase";
-import logo from '../logo.png';
+import logo from '../Assets/logo.png';
 import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
 
 function Sidebar(){
