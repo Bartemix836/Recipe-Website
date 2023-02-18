@@ -7,7 +7,7 @@ Problems and challenges encountered:
 
 The biggest difficulty and the most time was the creation of the chat, as this was the first use of React.js technology by ze me. This type of part of the project was a good introduction and exercise in using the React.js framework. This is not a fully completed application, but it already allows for text messaging. In time, voice chat, searching for messages on a given channel and many other functionalities will be added.
 
-HOW TO RUN CHATAPP 
+HOW TO RUN CHATAPP:
 
 Detailed instructions including information on how to start a chat application have been added on the "chatapp" gallery.
 ![image](https://user-images.githubusercontent.com/114190309/218345263-c3c65037-39d2-412c-8c71-c1049d838c34.png)
