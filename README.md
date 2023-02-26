@@ -1,4 +1,4 @@
-# RecipeWebsite
+# Recipe Website
 RECIPE PROJECT
 
 The project was created mainly in JavaScript and some elements in React.js combined with Redux. The app is designed for users and culinary enthusiasts. Its goal is to reduce user stress and time spent wondering what to eat for lunch or dinner. The site contains ready-made recipes of various dishes, which can be searched in the "Ready Recipe" section. An API was used to create it. Another section "Own Recipes" was made in pure JavaScript. Here the user can save his most interesting recipes. Chat for the project was made using React.js and Redux framework. We can only log into the application using a google account. As for the styling of the application, all visual effects were made using the SCSS preprocessor, which was divided into appropriate modules.
